@@ -12,3 +12,7 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.card {
+  @apply min-w-fit h-52 rounded-2xl overflow-hidden shadow-sm shadow-gray-300 transition duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg;
+}
