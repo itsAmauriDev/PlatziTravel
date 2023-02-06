@@ -14,11 +14,34 @@
     <title>Platzi travel</title>
   </head>
   <body>
-    <h1
-      class="text-blue-900 font-Montserrat bg-sky-300 font-black p-2 text-3xl text-center"
-    >
-      Hello world
-    </h1>
-    <div class="w-64 h-64 bg-pink-500 rounded-3xl m-5"></div>
+    <header>
+      <nav></nav>
+      <div id="tabBar"></div>
+    </header>
+    <main>
+      <section class="relative" id="home">
+        <img
+          class="w-full"
+          src="./img/sanFrancisco.jpg"
+          alt="San Francisco Landscape"
+        />
+        <div
+          class="w-full h-full flex flex-col justify-between items-center absolute top-0 pt-16 pb-16"
+        >
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="San Francisco"
+            class="w-4/5 py-3 px-6 rounded-full"
+          />
+          <button
+            class="px-10 py-3 rounded-full bg-white text-primary font-semibold"
+          >
+            Explore more
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
