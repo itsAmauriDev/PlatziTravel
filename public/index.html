@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,7 +16,6 @@
   <body class="font-Montserrat">
     <header>
       <nav></nav>
-      <div id="tabBar"></div>
     </header>
     <main>
       <section class="relative" id="home">
@@ -161,5 +160,89 @@
       </ul>
       <div></div>
     </footer>
+    <div
+      id="tabBar"
+      class="w-full h-20 sticky bottom-0 flex justify-evenly items-center bg-white shadow-md shadow-slate-800 lg:hidden"
+    >
+      <a href="#home">
+        <svg
+          width="24px"
+          height="24px"
+          viewBox="0 0 24 24"
+          stroke-width="2.54"
+          fill="none"
+          stroke="#cccccc"
+        >
+          <path
+            d="M2 8l9.732-4.866a.6.6 0 01.536 0L22 8M20 11v8a2 2 0 01-2 2H6a2 2 0 01-2-2v-8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </a>
+      <a href="#recommendations">
+        <svg
+          width="24px"
+          height="24px"
+          stroke-width="2.5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#cccccc"
+        >
+          <path
+            d="M22 8.862a5.95 5.95 0 01-1.654 4.13c-2.441 2.531-4.809 5.17-7.34 7.608-.581.55-1.502.53-2.057-.045l-7.295-7.562c-2.205-2.286-2.205-5.976 0-8.261a5.58 5.58 0 018.08 0l.266.274.265-.274A5.612 5.612 0 0116.305 3c1.52 0 2.973.624 4.04 1.732A5.95 5.95 0 0122 8.862z"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </a>
+      <a href="#trending">
+        <svg
+          width="24px"
+          height="24px"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+          fill="none"
+          stroke="#cccccc"
+        >
+          <path
+            d="M17 17l4 4M3 11a8 8 0 1016 0 8 8 0 00-16 0z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </a>
+      <a href="#">
+        <svg
+          width="24px"
+          height="24px"
+          stroke-width="2.5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#cccccc"
+        >
+          <path
+            d="M5 20v-1a7 7 0 017-7v0a7 7 0 017 7v1M12 12a4 4 0 100-8 4 4 0 000 8z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </a>
+      <button id="darkMobile">
+        <svg
+          width="24px"
+          height="24px"
+          stroke-width="2.54"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#cccccc"
+        >
+          <path
+            d="M3 11.507a9.493 9.493 0 0018 4.219c-8.507 0-12.726-4.22-12.726-12.726A9.494 9.494 0 003 11.507z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </button>
+    </div>
   </body>
 </html>
