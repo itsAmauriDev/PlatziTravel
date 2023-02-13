@@ -14,26 +14,24 @@
     <title>Platzi travel</title>
   </head>
   <body class="font-Montserrat">
-    <header>
-      <nav></nav>
-    </header>
     <main>
-      <section class="relative" id="home">
-        <img
-          class="w-full"
-          src="./img/sanFrancisco.jpg"
-          alt="San Francisco Landscape"
-        />
+      <section
+        class="w-full h-[80vh] relative bg-sanFrancisco bg-cover bg-center lg:h-[70vh] lg:bg-sanFranciscoDesktop"
+        id="home"
+      >
         <div
-          class="w-full h-full flex flex-col justify-between items-center absolute top-0 pt-16 pb-16"
+          class="w-full h-full flex flex-col justify-between items-center absolute top-0 py-16 lg:px-20 lg:justify-start lg:items-start lg:gap-10"
         >
           <input
             type="search"
             name="search"
             id="search"
             placeholder="San Francisco"
-            class="py-3 px-6 rounded-full transition duration-300 ease-in-out focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:outline-none focus:w-4/5"
+            class="py-3 px-6 rounded-full transition duration-300 ease-in-out focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:outline-none focus:w-4/5 lg:hidden"
           />
+          <h1 class="hidden w-96 text-4xl font-black pt-14 lg:block">
+            Find More Locations like this
+          </h1>
           <button
             class="px-10 py-3 rounded-full bg-white text-primary font-semibold transition duration-300 ease-in-out hover:bg-primary hover:text-white hover:-translate-x-1 hover:scale-110"
           >
@@ -149,7 +147,7 @@
       </section>
     </main>
     <footer class="py-8 px-5 mt-8 text-stone-400">
-      <h3 class="text-lg font-semibold mb-4">About Us</h3>
+      <h3 id="#about" class="text-lg font-semibold mb-4">About Us</h3>
       <ul class="flex flex-col gap-3 text-sm">
         <li><a href="#">Investors</a></li>
         <li><a href="#">Jobs</a></li>
@@ -162,7 +160,7 @@
     </footer>
     <div
       id="tabBar"
-      class="w-full h-20 sticky bottom-0 flex justify-evenly items-center bg-white shadow-md shadow-slate-800 lg:hidden"
+      class="w-full h-14 sticky bottom-0 flex justify-evenly items-center bg-white shadow-md shadow-slate-800 lg:hidden"
     >
       <a href="#home">
         <svg
