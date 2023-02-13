@@ -725,6 +725,10 @@ video {
   background-position: center;
 }
 
+.stroke-primary {
+  stroke: #CC2D4A;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
