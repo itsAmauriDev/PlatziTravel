@@ -13,31 +13,20 @@ module.exports = {
         tertiary: "#61AEC9",
       },
       backgroundImage: {
-        bali: "url('https://amauridev.me/PlatziTravel/public/img/bali.jpg')",
-        chicago:
-          "url('https://amauridev.me/PlatziTravel/public/img/chicago.jpg')",
-        europe:
-          "url('https://amauridev.me/PlatziTravel/public/img/europe.jpg')",
-        ìceland:
-          "url('https://amauridev.me/PlatziTravel/public/img/iceland.jpg')",
-        LA: "url('https://amauridev.me/PlatziTravel/public/img/LA.jpg')",
-        miami: "url('https://amauridev.me/PlatziTravel/public/img/miami.jpg')",
-        new_york:
-          "url('https://amauridev.me/PlatziTravel/public/img/new_york.jpg')",
-        norway:
-          "url('https://amauridev.me/PlatziTravel/public/img/norway.jpg')",
-        sanFrancisco:
-          "url('https://amauridev.me/PlatziTravel/public/img/sanFrancisco.jpg')",
-        sanFranciscoDesktop:
-          "url('https://amauridev.me/PlatziTravel/public/img/sanFranciscoDesktop.jpg')",
-        seattle:
-          "url('https://amauridev.me/PlatziTravel/public/img/seattle.jpg')",
-        switzerland:
-          "url('https://amauridev.me/PlatziTravel/public/img/switzerland.jpg')",
-        sydney:
-          "url('https://amauridev.me/PlatziTravel/public/img/sydney.jpg')",
-        yosemite:
-          "url('https://amauridev.me/PlatziTravel/public/img/yosemite.jpg')",
+        bali: "url('../img/bali.jpg')",
+        chicago: "url('../img/chicago.jpg')",
+        europe: "url('../img/europe.jpg')",
+        ìceland: "url('../img/iceland.jpg')",
+        LA: "url('../img/LA.jpg')",
+        miami: "url('../img/miami.jpg')",
+        new_york: "url('../img/new_york.jpg')",
+        norway: "url('../img/norway.jpg')",
+        sanFrancisco: "url('../img/sanFrancisco.jpg')",
+        sanFranciscoDesktop: "url('../img/sanFranciscoDesktop.jpg')",
+        seattle: "url('../img/seattle.jpg')",
+        switzerland: "url('../img/switzerland.jpg')",
+        sydney: "url('../img/sydney.jpg')",
+        yosemite: "url('../img/yosemite.jpg')",
       },
     },
   },
