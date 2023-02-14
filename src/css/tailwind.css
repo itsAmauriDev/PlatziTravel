@@ -14,12 +14,12 @@
 }
 
 .card {
-  @apply min-w-fit h-52 rounded-2xl overflow-hidden shadow-sm shadow-gray-300 transition duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg lg:h-64;
+  @apply min-w-fit h-52 rounded-2xl overflow-hidden shadow-sm shadow-gray-300 transition duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg lg:h-64 dark:shadow-none;
 }
 
 .card:nth-child(even) {
-  @apply bg-white text-tertiary;
+  @apply bg-white text-tertiary dark:bg-gray-800 dark:text-white;
 }
 .card:nth-child(odd) {
-  @apply bg-secondary text-white;
+  @apply bg-secondary text-white dark:bg-gray-700;
 }

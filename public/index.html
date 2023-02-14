@@ -13,9 +13,9 @@
     />
     <title>Platzi travel</title>
   </head>
-  <body class="font-Montserrat">
+  <body class="font-Montserrat dark:bg-gray-900 dark:text-white">
     <header
-      class="w-full h-14 hidden sticky top-0 z-10 shadow-sm shadow-slate-200 bg-white lg:block"
+      class="w-full h-14 hidden sticky top-0 z-10 shadow-sm shadow-slate-200 bg-white lg:block dark:bg-gray-900 dark:shadow-gray-700"
     >
       <nav
         class="w-full h-full flex items-center justify-between px-6 text-primary font-bold"
@@ -94,7 +94,9 @@
             placeholder="San Francisco"
             class="py-3 px-6 rounded-full transition duration-300 ease-in-out focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:outline-none focus:w-4/5 lg:hidden"
           />
-          <h1 class="hidden w-96 text-4xl font-black pt-14 lg:block">
+          <h1
+            class="hidden w-96 text-4xl font-black pt-14 lg:block dark:text-black"
+          >
             Find More Locations like this
           </h1>
           <button
@@ -106,7 +108,7 @@
       </section>
       <section id="recommendations">
         <h2
-          class="text-2xl font-bold text-primary my-8 mx-auto w-10/12 lg:w-11/12"
+          class="text-2xl font-bold text-primary my-8 mx-auto w-10/12 lg:w-11/12 dark:text-white"
         >
           Our recommendations
         </h2>
@@ -197,7 +199,9 @@
         </div>
       </section>
       <section id="trending" class="w-10/12 lg:w-11/12 m-auto">
-        <h2 class="text-2xl font-bold text-primary my-8">Trending Stays</h2>
+        <h2 class="text-2xl font-bold text-primary my-8 dark:text-white">
+          Trending Stays
+        </h2>
         <div
           class="flex flex-col gap-9 w-full mx-auto text-white lg:grid lg:gap-6 lg:grid-cols-5 lg:grid-rows-[repeat(7,_minmax(150px,_1fr))]"
         >
@@ -228,33 +232,43 @@
         </div>
       </section>
       <section class="w-10/12 lg:w-11/12 mx-auto" id="faqs">
-        <h2 class="text-2xl font-bold text-primary my-8">FAQs</h2>
+        <h2 class="text-2xl font-bold text-primary my-8 dark:text-white">
+          FAQs
+        </h2>
         <div class="mb-3">
-          <p class="font-semibold mb-2 text-primary">Payment Methods</p>
+          <p class="font-semibold mb-2 text-primary dark:text-white">
+            Payment Methods
+          </p>
           <p class="text-sm">
             We accept VISA, MasterCard, American Express, Paypal and Binance
           </p>
         </div>
         <div class="mb-3">
-          <p class="font-semibold mb-2 text-primary">Cancellation Policy</p>
+          <p class="font-semibold mb-2 text-primary dark:text-white">
+            Cancellation Policy
+          </p>
           <p class="text-sm">
             We accept VISA, MasterCard, American Express, Paypal and Binance
           </p>
         </div>
         <div class="mb-3">
-          <p class="font-semibold mb-2 text-primary">Long Stays</p>
+          <p class="font-semibold mb-2 text- dark:text-white">Long Stays</p>
           <p class="text-sm">
             We accept VISA, MasterCard, American Express, Paypal and Binance
           </p>
         </div>
         <div class="mb-3">
-          <p class="font-semibold mb-2 text-primary">Cancellation Policy</p>
+          <p class="font-semibold mb-2 text-primary dark:text-white">
+            Cancellation Policy
+          </p>
           <p class="text-sm">
             We accept VISA, MasterCard, American Express, Paypal and Binance
           </p>
         </div>
         <div class="mb-3">
-          <p class="font-semibold mb-2 text-primary">Cancellation Policy</p>
+          <p class="font-semibold mb-2 text-primary dark:text-white">
+            Cancellation Policy
+          </p>
           <p class="text-sm">
             We accept VISA, MasterCard, American Express, Paypal and Binance
           </p>
@@ -275,7 +289,7 @@
     </footer>
     <div
       id="tabBar"
-      class="w-full h-14 sticky bottom-0 flex justify-evenly items-center bg-white shadow-md shadow-slate-800 lg:hidden"
+      class="w-full h-14 sticky bottom-0 flex justify-evenly items-center bg-white shadow-md shadow-slate-800 lg:hidden dark:bg-gray-800"
     >
       <a href="#home">
         <svg
@@ -357,5 +371,6 @@
         </svg>
       </button>
     </div>
+    <script src="../src/assets/main.js" defer></script>
   </body>
 </html>
