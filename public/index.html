@@ -105,7 +105,9 @@
         </div>
       </section>
       <section id="recommendations">
-        <h2 class="text-2xl font-bold text-primary my-8 px-5">
+        <h2
+          class="text-2xl font-bold text-primary my-8 mx-auto w-10/12 lg:w-11/12"
+        >
           Our recommendations
         </h2>
         <div class="flex gap-3 p-3 overflow-x-auto no-scrollbar">
@@ -194,38 +196,38 @@
           </div>
         </div>
       </section>
-      <section id="trending">
-        <h2 class="text-2xl font-bold text-primary my-8 px-5">
-          Trending Stays
-        </h2>
-        <div class="flex flex-col gap-9 w-10/12 mx-auto text-white">
+      <section id="trending" class="w-10/12 lg:w-11/12 m-auto">
+        <h2 class="text-2xl font-bold text-primary my-8">Trending Stays</h2>
+        <div
+          class="flex flex-col gap-9 w-full mx-auto text-white lg:grid lg:gap-6 lg:grid-cols-5 lg:grid-rows-[repeat(7,_minmax(150px,_1fr))]"
+        >
           <div
-            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-chicago bg-cover"
+            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-chicago bg-cover lg:min-h- lg:h-full lg:col-span-full lg:row-span-3"
           >
             <p class="font-bold text-2xl">Chicago</p>
             <p>2 rooms bathroom and kitchen.</p>
           </div>
           <div
-            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-LA bg-cover"
+            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-LA bg-cover lg:min-h- lg:h-full lg:col-span-2 lg:row-span-4"
           >
             <p class="font-bold text-2xl">Los Angeles</p>
             <p>4 rooms, 3 bathrooms, kitchen and private pool.</p>
           </div>
           <div
-            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-miami bg-cover"
+            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-miami bg-cover lg:min-h- lg:h-full lg:col-span-3 lg:row-span-2"
           >
             <p class="font-bold text-2xl">Miami</p>
             <p>3 rooms, 2 bathrooms, kitchen and amazing sea view.</p>
           </div>
           <div
-            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-bali bg-cover"
+            class="w-full h-96 flex flex-col gap-3 px-6 py-9 rounded-xl overflow-hidden bg-bali bg-cover lg:min-h- lg:h-full lg:col-span-3 lg:row-span-2"
           >
             <p class="font-bold text-2xl">Bali</p>
             <p>2 rooms, 2 bathrooms, kitchen and private pool.</p>
           </div>
         </div>
       </section>
-      <section class="w-10/12 mx-auto" id="faqs">
+      <section class="w-10/12 lg:w-11/12 mx-auto" id="faqs">
         <h2 class="text-2xl font-bold text-primary my-8">FAQs</h2>
         <div class="mb-3">
           <p class="font-semibold mb-2 text-primary">Payment Methods</p>
