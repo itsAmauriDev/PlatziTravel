@@ -13,20 +13,31 @@ module.exports = {
         tertiary: "#61AEC9",
       },
       backgroundImage: {
-        bali: "url('../public/img/bali.jpg')",
-        chicago: "url('../public/img/chicago.jpg')",
-        europe: "url('../public/img/europe.jpg')",
-        ìceland: "url('../public/img/iceland.jpg')",
-        LA: "url('../public/img/LA.jpg')",
-        miami: "url('../public/img/miami.jpg')",
-        new_york: "url('../public/img/new_york.jpg')",
-        norway: "url('../public/img/norway.jpg')",
-        sanFrancisco: "url('../public/img/sanFrancisco.jpg')",
-        sanFranciscoDesktop: "url('../public/img/sanFranciscoDesktop.jpg')",
-        seattle: "url('../public/img/seattle.jpg')",
-        switzerland: "url('../public/img/switzerland.jpg')",
-        sydney: "url('../public/img/sydney.jpg')",
-        yosemite: "url('../public/img/yosemite.jpg')",
+        bali: "url('https://amauridev.me/PlatziTravel/public/img/bali.jpg')",
+        chicago:
+          "url('https://amauridev.me/PlatziTravel/public/img/chicago.jpg')",
+        europe:
+          "url('https://amauridev.me/PlatziTravel/public/img/europe.jpg')",
+        ìceland:
+          "url('https://amauridev.me/PlatziTravel/public/img/iceland.jpg')",
+        LA: "url('https://amauridev.me/PlatziTravel/public/img/LA.jpg')",
+        miami: "url('https://amauridev.me/PlatziTravel/public/img/miami.jpg')",
+        new_york:
+          "url('https://amauridev.me/PlatziTravel/public/img/new_york.jpg')",
+        norway:
+          "url('https://amauridev.me/PlatziTravel/public/img/norway.jpg')",
+        sanFrancisco:
+          "url('https://amauridev.me/PlatziTravel/public/img/sanFrancisco.jpg')",
+        sanFranciscoDesktop:
+          "url('https://amauridev.me/PlatziTravel/public/img/sanFranciscoDesktop.jpg')",
+        seattle:
+          "url('https://amauridev.me/PlatziTravel/public/img/seattle.jpg')",
+        switzerland:
+          "url('https://amauridev.me/PlatziTravel/public/img/switzerland.jpg')",
+        sydney:
+          "url('https://amauridev.me/PlatziTravel/public/img/sydney.jpg')",
+        yosemite:
+          "url('https://amauridev.me/PlatziTravel/public/img/yosemite.jpg')",
       },
     },
   },
