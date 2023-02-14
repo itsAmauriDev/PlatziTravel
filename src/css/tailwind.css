@@ -14,5 +14,12 @@
 }
 
 .card {
-  @apply min-w-fit h-52 rounded-2xl overflow-hidden shadow-sm shadow-gray-300 transition duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg;
+  @apply min-w-fit h-52 rounded-2xl overflow-hidden shadow-sm shadow-gray-300 transition duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg lg:h-64;
+}
+
+.card:nth-child(even) {
+  @apply bg-white text-tertiary;
+}
+.card:nth-child(odd) {
+  @apply bg-secondary text-white;
 }
